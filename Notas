@@ -1,2 +1,10 @@
 - Delimitando el area de interes 
 - Y reescalando todas las imagenes a una dimension 
+- Umbral que deje pasar a casi todos los pixeles, excepto los que tengan intensidades cercanas a cero
+
+- Para eliminar puntos negros dentro de la mascara, provocados por pixeles con intensidades muy bajas, aplicamos una operacion de cerradura morfologica.
+
+- Calculamos el bounding box
+- Aspect ratio
+- Interpolación, bicubica
+- CAMBIAR ESPACIO, NOCREO QUE RGB SEA MEJOR >>PROBAR HSV
